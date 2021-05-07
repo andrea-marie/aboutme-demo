@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+html 
+    {
+    background: rgb(230, 172, 242);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    background: radial-gradient(white 30%, rgb(235, 179, 280));
+    }
+
+header
+    {
+    font-size: 35pt;
+    color: #ffff00;
+    text-align: center;
+    }
+
+nav.toplinks
+    {
+     text-align: right; 
+     color: #deb887;
+     font-size: 18px;
+    }
+
+img#flag
+    {
+    width: 50px;
+    }
+
+img.cartoon
+    {
+    width: 200px;
+    }
+
+iframe
+    {
+    width: 320px; 
+    height: 215px;
+    padding: 20px;
+    }

@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*  
+    Capstone Project CIS 131
+    Author: Andrea Gayle
+    Date: 03/17/21  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Sans+Pro:wght@700&display=swap');
+
+html
+    {
+    height: auto;
+    border-left: 150px solid;
+    border-right: 150px solid;
+    border-image:url(Images/Exotic%20Garden.jpg) 10% 10%; 
+    }
+
+img#Bonsai
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(0, 45, 90);
+    height: 350px;
+    width: 100%;
+    box-shadow: rgb(169, 169, 211) 15px 10px 15px;
+    -webkit-filter: brightness(1.5);
+    filter: brightness(1.5);
+    }
+
+h1
+    {
+    text-align: center;
+    text-shadow: silver -10px -5px 6px, white 3px 4px 6px;
+    font-family: Oxygen;
+    font-size: 3em;
+    }
+
+header > address > p
+    {
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 0.3em;
+    padding-bottom: 10px;
+    }
+
+img.Andrea
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 40%;
+    border: 10px solid rgb(151, 151, 151);
+    border-radius: 20%;
+    box-shadow: rgb(51, 51, 51) 20px 15px 25px;
+    float: top;
+    transform: rotate(-40deg) scale(0.8, 0.8);
+    }
+
+nav 
+    {
+    text-align: right;
+    font-size: 25px;
+    word-spacing: 0.1em;
+    }
+
+nav a:visited, nav a:link 
+     {
+      color: rgb(0, 0, 139);
+     }
+
+nav a:active, nav a:hover 
+     {
+      color: cornsilk;
+     }
+
+body 
+    {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+    font-family: 'Oxygen', sans-serif, monospace;
+    background: radial-gradient(aquamarine 30%, rgb(0, 127, 255));
+    font-size: 20px;
+    }
+
+ul
+{
+    margin-left: 200px;
+}
+
+.grid
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "top ."
+        ". right" 
+        "bottom .";
+     grid-gap: 0.3em;
+    }
+
+#box1
+{
+    grid-area: top;   
+}
+
+#box2
+{
+    grid-area: right;
+}
+
+#box3
+{
+    grid-area: bottom;   
+}
+
+footer
+    {
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 0.2em;
+    }
+
+
+
+/* Flex Layout Styles*/
+
+body
+    {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 5;
+    flex-basis:  180px;
+    }
+ 
+
+/* ============================================
+	Mobile Devices: 0 - 800 pixels
+   ============================================
+*/
+
+@media only screen and (max-width: 800px)
+{
+       body{
+        margin-left: auto;
+        margin-right: auto;  
+        background: none;
+       }
+        img#Bonsai {width: 50%;}
+    html{
+        border-image: none;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+
+
+    
+    
