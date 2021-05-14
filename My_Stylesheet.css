@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-html 
+body 
     {
     background: rgb(230, 172, 242);
     font-family: Verdana, Geneva, sans-serif;
@@ -21,9 +21,23 @@ nav.toplinks
      display:flex;
      justify-content: space-evenly;
      background-color: teal;
-     color: #deb887;
+     padding: 5px;
+     color: #e3f0f1;
      font-size: 18px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
     }
+    nav.toplinks a
+    {
+        color:#e3f0f1;
+    }
+
+    nav.toplinks a:hover
+        {
+            color: purple;
+        }
 
 img#flag
     {
