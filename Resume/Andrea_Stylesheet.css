@@ -13,7 +13,7 @@ html
     height: auto;
     border-left: 150px solid;
     border-right: 150px solid;
-    border-image:url(Images/Exotic%20Garden.jpg) 10% 10%; 
+    /* border-image:url(Images/Exotic%20Garden.jpg) 10% 10%;  */
     }
 
 img#Bonsai
@@ -62,9 +62,11 @@ img.Andrea
 
 nav 
     {
-    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
     font-size: 25px;
     word-spacing: 0.1em;
+    padding: 10px;
     }
 
 nav a:visited, nav a:link 

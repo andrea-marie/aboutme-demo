@@ -5,15 +5,17 @@ body
     background: rgb(230, 172, 242);
     font-family: Verdana, Geneva, sans-serif;
     font-size: 14px;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 25px;
     background: radial-gradient(white 30%, rgb(235, 179, 280));
     }
 
 header
     {
     font-size: 35pt;
-    color: #ffff00;
+    color: #ff00aa;
     text-align: center;
+    margin-top: 50px;
     }
 
 nav.toplinks
@@ -34,9 +36,16 @@ nav.toplinks
         color:#e3f0f1;
     }
 
-    nav.toplinks a:hover
+nav.toplinks a:hover
         {
-            color: purple;
+            color: rgb(102, 0, 128);
+        }
+
+img.animate
+        {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
         }
 
 img#flag
@@ -44,13 +53,23 @@ img#flag
     width: 50px;
     }
 
+img#food
+    {
+    width: 100px;
+    padding: 9px;
+    }
+
 img.cartoon
     {
+    display: block;
+    margin: 0 auto;
     width: 200px;
     }
 
 iframe
     {
+    display: block;
+    margin: 0 auto;
     width: 320px; 
     height: 215px;
     padding: 20px;
