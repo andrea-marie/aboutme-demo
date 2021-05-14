@@ -18,7 +18,9 @@ header
 
 nav.toplinks
     {
-     text-align: right; 
+     display:flex;
+     justify-content: space-evenly;
+     background-color: teal;
      color: #deb887;
      font-size: 18px;
     }
